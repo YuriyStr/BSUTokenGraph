@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+    script(type="text/javascript", src="javascripts/canvasjs.min.js")
+    style(type='text/css').
+      .jumbotron {
+        background-color: #f4511e;
+        color: #fff;
+        padding: 100px 25px;
+      }
+
+      .container-fluid {
+        padding: 60px 50px;
+      }
+
+      .bg-grey {
+        background-color: #f6f6f6;
+      }
+
+      .customButton {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: rgba(244, 81, 30, 0.78);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+
+      .customButton:hover {
+        background-color: #3e8e41
+      }
+
+      .customButton:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+  body
+    block content

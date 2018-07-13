@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div(class="jumbotron text-center")
+    h1 Graph builder
+    p You can check the BSUToken balance. Just paste address of account.
+    div(class="form-inline")
+      div(class="input-group")
+        input#search(size="50", placeholder="Ethereum Address", class="form-control")
+  div(class="container-fluid")
+    div#plotContainer(style="height: 360px; width: 100%;")
+  script(src="javascripts/client.js")
+
+
